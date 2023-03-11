@@ -1,0 +1,31 @@
+.grid-container {
+    display: flex;
+    flex-direction: column;
+    width: 21em;
+    margin: 0px auto;
+    margin-top: 5vh;
+}
+
+.grid-row {
+    display: flex;
+}
+
+.grid-element {
+    height: 2em;
+    width: 2em;
+    margin: 0.1em;
+}
+
+#reset-button {
+    width: auto;
+    font-size: 1.5em;
+}
+
+#current-color-div {
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+    /* width: auto; */
+    height: 2em;
+    margin: 0px 10px;
+}

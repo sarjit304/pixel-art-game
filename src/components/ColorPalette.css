@@ -1,0 +1,14 @@
+#color-palette-header {
+    text-align: center;
+}
+
+#palette-container {
+    text-align: center;
+}
+
+
+button {
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+}
