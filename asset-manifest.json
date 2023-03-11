@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/pixel-art-game/static/css/main.1967bd99.css",
-    "main.js": "/pixel-art-game/static/js/main.e4346ec5.js",
+    "main.css": "/pixel-art-game/static/css/main.5cfef0da.css",
+    "main.js": "/pixel-art-game/static/js/main.c7c1d112.js",
     "static/js/787.5b607b42.chunk.js": "/pixel-art-game/static/js/787.5b607b42.chunk.js",
     "index.html": "/pixel-art-game/index.html",
-    "main.1967bd99.css.map": "/pixel-art-game/static/css/main.1967bd99.css.map",
-    "main.e4346ec5.js.map": "/pixel-art-game/static/js/main.e4346ec5.js.map",
+    "main.5cfef0da.css.map": "/pixel-art-game/static/css/main.5cfef0da.css.map",
+    "main.c7c1d112.js.map": "/pixel-art-game/static/js/main.c7c1d112.js.map",
     "787.5b607b42.chunk.js.map": "/pixel-art-game/static/js/787.5b607b42.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1967bd99.css",
-    "static/js/main.e4346ec5.js"
+    "static/css/main.5cfef0da.css",
+    "static/js/main.c7c1d112.js"
   ]
 }
