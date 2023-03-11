@@ -2,7 +2,7 @@ import './ColorPalette.css'
 
 function ColorPalette(props) {
     const { setCurrentColor } = props;
-    const colors = ['red', 'blue', 'green', 'black', 'white', 'yellow', 'purple'];
+    const colors = ['red', 'blue', 'green', 'black', 'yellow', 'purple'];
 
     function changeColor(color) {
         setCurrentColor(color);

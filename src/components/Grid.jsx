@@ -25,6 +25,42 @@ export default function Grid(props) {
         setGrid(grid);
     }
 
+    function placeholderGridArt() {
+        let newGrid = [...grid];
+
+        newGrid[2][2] = 'black';
+        newGrid[2][3] = 'black';
+        newGrid[3][2] = 'black';
+        newGrid[3][3] = 'black';
+
+        newGrid[2][6] = 'black';
+        newGrid[2][7] = 'black';
+        newGrid[3][6] = 'black';
+        newGrid[3][7] = 'black';
+
+        newGrid[5][1] = 'black';
+        newGrid[6][1] = 'black';
+        newGrid[6][2] = 'black';
+        newGrid[7][2] = 'black';
+        newGrid[7][3] = 'black';
+        newGrid[7][4] = 'black';
+        newGrid[7][5] = 'black';
+        newGrid[7][6] = 'black';
+        newGrid[7][7] = 'black';
+
+        newGrid[8][3] = 'black';
+        newGrid[8][4] = 'black';
+        newGrid[8][5] = 'black';
+        newGrid[8][6] = 'black';
+
+        newGrid[7][7] = 'black';
+        newGrid[7][8] = 'black';
+
+        newGrid[6][8] = 'black';
+        console.log(newGrid);
+        setGrid(newGrid);
+    }
+
     function handleClick(rowIdx, colIdx) {
         let newGrid = [...grid];
         newGrid[rowIdx][colIdx] = currentColor;
