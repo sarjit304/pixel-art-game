@@ -9,7 +9,7 @@ function App() {
   console.log("Current color: ", currentColor);
 
   return (
-    <div>
+    <div id='app-container'>
       <ColorPalette setCurrentColor={setCurrentColor}/>
       <Grid currentColor={currentColor}/>
     </div>

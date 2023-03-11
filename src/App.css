@@ -1,0 +1,20 @@
+body {
+    background-color: #ededed;
+}
+
+#app-container {
+    width: 70vw;
+    height: 90vh;
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+    overflow: 10vh auto;
+}
+
+@media(max-width: 600px) {
+    #app-container {
+        width: 100vw;
+        height: 100vh;
+        background-color: white;
+    }
+}
